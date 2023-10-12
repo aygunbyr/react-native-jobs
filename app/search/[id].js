@@ -13,9 +13,9 @@ import axios from 'axios';
 import { ScreenHeaderBtn, NearbyJobCard } from '../../components';
 import { COLORS, icons, SIZES } from '../../constants';
 import styles from '../../styles/search';
-import { RAPID_API_KEY } from '@env';
+import { EXPO_PUBLIC_RAPID_API_KEY } from '@env';
 
-const rapidApiKey = RAPID_API_KEY;
+const rapidApiKey = EXPO_PUBLIC_RAPID_API_KEY;
 
 const JobSearch = () => {
   const params = useGlobalSearchParams();
